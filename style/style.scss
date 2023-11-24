@@ -1,0 +1,65 @@
+*{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: rgb(11, 39, 41);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    color: #8ab5b8;
+    font-size: 5rem;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 3rem;
+}
+
+
+h3{
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+
+    a{
+        color: #569ea3;
+    }
+}
+h2{
+    position: absolute;
+    bottom: 20%;
+    color: rgb(235, 235, 235);
+}
+svg{
+    fill: rgb(235, 235, 235);
+}
+#headphones{
+    position: absolute;
+    bottom: 12%;
+}
+.microphone{
+    height: 5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    
+}
+h4{
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    font-size: 1rem;
+
+    span{
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.411);
+    }
+}
