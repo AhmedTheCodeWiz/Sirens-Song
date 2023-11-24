@@ -8,7 +8,6 @@ let audioContext = null;
 let source = null;
 let scriptNode = null;
 
-music.play();
 
 function changeIcon() {
     if (isListening){
@@ -18,7 +17,7 @@ function changeIcon() {
     }
     
 }
-console.log(music.volume)
+console.log(music.play())
 
 microphone.addEventListener("mousedown", function(event) {
   if (event.button === 0) {
@@ -69,7 +68,6 @@ function startListening() {
 
           const volumePercentage = Math.round(scaledVolume * 100);
           volumeMeter.innerText = `${volumePercentage}%`
-          console.log("current volume: ", scaledVolume);
         }
       };
       source.connect(scriptNode);
